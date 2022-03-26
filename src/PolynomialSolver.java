@@ -87,7 +87,7 @@ public class PolynomialSolver implements IPolynomialSolver{
     }
 
     
-    private int[][] add(SingleLinkedList l1, SingleLinkedList l2){
+    private int[][] addHelper(SingleLinkedList l1, SingleLinkedList l2){
 
         return new int[0][];
     }
