@@ -2,6 +2,10 @@ public class SingleLinkedList implements ILinkedList {
     private int length;
     private SLNode head;
 
+    public SLNode getHead() {
+        return head;
+    }
+
     public SingleLinkedList() {
         head = null;
         length = 0;
