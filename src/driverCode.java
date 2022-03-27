@@ -8,7 +8,7 @@ public class driverCode {
         String input = sc.nextLine().replaceAll("\\[|\\]", "");
         String[] nums = input.split(", ");
 
-        if(! nums[0].isEmpty()){
+        if(!nums[0].isEmpty()){
             for(String i : nums){
                 myList.add(Integer.parseInt(i));
             }
