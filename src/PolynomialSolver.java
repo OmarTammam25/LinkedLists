@@ -59,9 +59,9 @@ public class PolynomialSolver implements IPolynomialSolver{
                 }
             }else if(myList.get(j) == (Integer)(-1)){
                 if(i > 1)
-                    System.out.print("-x^" + i);
+                    System.out.print("-1x^" + i);
                 else if (i == 1){ // if power 1
-                    System.out.print("-x");
+                    System.out.print("-1x");
                 } else{
                     System.out.print("-1");
                 }
